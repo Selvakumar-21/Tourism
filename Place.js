@@ -1,6 +1,7 @@
 import React from "react";
 
 import Scroll from "./components/Scroll";
+import Home from "./components/Home";
 import Chennai from "./components/Chennai";
 import Rameswaram from "./components/Rameswaram";
 import Kodaikanal from "./components/Kodaikanal";
@@ -12,8 +13,8 @@ import Yarcaud from "./components/Yarcaud";
 import Theni from "./components/Theni";
 import Hogenakkal from "./components/Hogenakkal";
 
-const Home = () => {
-    return(
+const Place = () => {
+    return (
         <div>
             <Home />
             <Scroll />
@@ -31,4 +32,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Place;
